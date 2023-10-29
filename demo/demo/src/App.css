@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.dev {
+  text-align: center;
+  position: relative;
+  /* Added for positioning */
+}
+
+.delete {
+  background-color: rgb(202, 13, 13);
+}
+.list-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.item-list {
+  max-height: 300px;
+  /* Set a maximum height for the list */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+}
+form {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.delete:hover {
+  background-color:rgb(203, 114, 114);
+}
